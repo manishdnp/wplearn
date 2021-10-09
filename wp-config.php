@@ -7,8 +7,7 @@
  * copy this file to "wp-config.php" and fill in the values.
  *
  * This file contains the following configurations:
- *
- * * MySQL settings
+  * * MySQL settings
  * * Secret keys
  * * Database table prefix
  * * ABSPATH

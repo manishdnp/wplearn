@@ -1,0 +1,40 @@
+/*=============================
+form section CSS
+===============================*/
+section.main-banner.login-section {padding: 200px 0 80px 0;}
+.login-left-section{position:relative;}
+.signup-bg-section{background-color: #ebf7ff;padding:128px 30px;-webkit-box-shadow: 0px 3px 37.73px 11.27px rgba(135, 135, 135, 0.13);
+    box-shadow: 0px 3px 37.73px 11.27px rgba(135, 135, 135, 0.13);}
+.login-bg-section{background-color: #ebf7ff;/* position: absolute;right:0;top:10%; */padding: 30px 50px;-webkit-box-shadow: 0px 3px 37.73px 11.27px rgba(135, 135, 135, 0.13);
+    box-shadow: 0px 3px 37.73px 11.27px rgba(135, 135, 135, 0.13);}
+.login-form{background-color: #fff;padding:30px;position:relative;font-size: 20px;border-radius: 6px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;}
+.login-section-title .bar {height: 5px;width: 20px;background: #fff;margin: 20px auto;position: relative;border-radius: 30px;left: 10px;}
+.login-section-title .bar::before{content: '';position: absolute;left: -33px;top: 0;height: 5px;width: 30px;border-radius: 30px;background: #fff;}
+.login-section-title .bar::after{content: '';position: absolute;right: -8px;top: 0;height: 5px;width: 5px;border-radius: 30px;background: #fff;
+    -webkit-animation-duration: 3s;animation-duration: 3s;-webkit-animation-timing-function: linear;animation-timing-function: linear;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;-webkit-animation-name: MOVE-BG;animation-name: MOVE-BG;}
+.login-section-title {text-align: center;margin-bottom: 23px;color:#fff;}
+.login-section-title h2 {text-align: center;margin-bottom: 0;font-weight: 700;color: #061c28;font-size: 20px;margin-bottom: 35px;}
+.login-section-title span {color: #42b8f2;}
+.login-section-title p {max-width: 70%;margin: 0 auto;font-size:14px;line-height:22px;font-weight:400;color:#fff;}
+.login-btn {font-size: 15px;font-weight: bold;}
+.login-form input.form-control{padding: 20px 8px;background-color: transparent;border: 1px solid #e5e5e5}
+.login-form input.form-control:focus{box-shadow:none;}
+.login-text i{font-size: 16px;color: #44ce6f;}
+.form-group {display: block;margin-bottom: 15px;}
+.form-group input {padding: 0;height: initial;width: initial;margin-bottom: 0;display: none;cursor: pointer;}
+.form-group label {position: relative;cursor: pointer;}
+.form-group label:before {content:'';-webkit-appearance: none;background-color: transparent;border: 1px solid #fff;border-radius:4px;padding: 8px;
+display: inline-block;position: relative;vertical-align: middle;cursor: pointer; margin-right: 10px;}
+.form-group input:checked + label:after {content: '';display: block;position: absolute;top: 4px;left: 6px;width: 6px;height: 12px;border: solid #fff;
+border-width: 0 2px 2px 0;transform: rotate(45deg);}
+.cancel{background-color:#f26445;color:#fff;}
+::placeholder {color:#777777 !important;opacity: 1; /* Firefox */}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */color:#777777 !important;}
+::-ms-input-placeholder { /* Microsoft Edge */color:#777777 !important;}
+.last-nav{display:block !Important;}
+@media screen and (max-width:1199px){
+	.signup-pd{padding:0px;}
+}
+/*=============================
+end form section CSS
+===============================*/

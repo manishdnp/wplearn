@@ -1,0 +1,2 @@
+# wplearn
+wp theme implemention
